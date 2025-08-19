@@ -1,0 +1,20 @@
+
+/* PetHub estilos mínimos */
+:root{
+  --pethub-primary:#4E86FF;
+}
+body{
+  background-color:#f6f8fb;
+}
+.navbar-brand{ letter-spacing:.2px; }
+.card img.object-fit-cover{ max-height:420px; }
+.rounded-4{ border-radius:1rem !important; }
+
+/* Login card color detail */
+.card .btn-primary{
+  background-color: var(--pethub-primary);
+  border-color: var(--pethub-primary);
+}
+.card .btn-primary:hover{
+  filter:brightness(.95);
+}
